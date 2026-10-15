@@ -1,0 +1,43 @@
+{
+  "business": {
+    "name": "J'Premium Enterprises",
+    "subsidiary": "J'Premium Quick Connect",
+    "cac": "7438950",
+    "motto": "One Connection Endless Possibilities",
+    "quality": "Faster Safer Cheaper Better Quality",
+    "slogan": "No more stress, no more scam. Only Cheers and Peace of Mind 😊",
+    "address": "Lagos, Nigeria - Worldwide Services",
+    "whatsapp": "https://wa.me/2349038284538",
+    "phone": "09038284538",
+    "instagram": "jpremium_interiors",
+    "email": "jpremium@gmail.com"
+  },
+  "about": {
+    "desc": "J'Premium Quick Connect is a subsidiary company of J'Premium Enterprises under which all our business activities are birthed and operates....",
+    "mission": "To ensure safe, quality + Premium services and products are the only things our clients get. Security of our clients is our top priority.",
+    "vision": "To be the safest haven for all who seek premium, secure and quality services/products around the globe."
+  },
+  "gallery": {
+    "folder": "Images",
+    "prefix": "jpremium-",
+    "maxFiles": 100
+  },
+  "services": [
+    { "badge": "HOT 🔥", "icon": "💱", "title": "Digital Assets Exchange", "desc": "Safest exchange services worldwide. Cryptos, PayPal, Pi, gift cards, etc." },
+    { "badge": "LUXURY", "icon": "🏠", "title": "Interior & Exterior Finishes", "desc": "Premium beautification, POP, Screedings, Homes, offices, events + cleaning." },
+    { "badge": "TRUSTED", "icon": "🏗️", "title": "Building Projects Services", "desc": "From land purchase to finish. Well traveled Masons. Trusted hand for diaspora." },
+    { "badge": "BRAND", "icon": "🎨", "title": "Graphic Designs & Branding", "desc": "Best branding agency. Video editing & graphics that makes your brand fly." },
+    { "badge": "LIVE", "icon": "🎤", "title": "Entertainment Services", "desc": "Live band, MCs, DJ, events + TV Media - Fun, Business, Reality." },
+    { "badge": "GREEN", "icon": "☀️", "title": "Solar Solutions", "desc": "Clean green solar energy: sales, installations, consultancy." },
+    { "badge": "HEALTH", "icon": "🌿", "title": "Health Care", "desc": "Natural & Orthodox healing through professional experts." },
+    { "badge": "MIND", "icon": "🧘", "title": "Therapy Services", "desc": "Mental well-being professionals. Your peace is priority." },
+    { "badge": "PETS", "icon": "🐶", "title": "Pet Store", "desc": "Dogs, cats, lions, etc. Safe delivery." },
+    { "badge": "BEST PRICE", "icon": "🚗", "title": "Vehicle Deals", "desc": "Best importation prices: Cars, SUVs, Trailers, Trucks." },
+    { "badge": "SAFE", "icon": "🏨", "title": "Hotel Booking Services", "desc": "Most secure hotel booking across Nigeria." },
+    { "badge": "24/7", "icon": "💻", "title": "Online Cafe Services", "desc": "Safe registrations: JAMB, NIMC, CAC, etc." },
+    { "badge": "ORIGINAL", "icon": "📱", "title": "Gadgets Store", "desc": "Safe gadget shopping - phones, laptops, original only." },
+    { "badge": "EASY", "icon": "🛒", "title": "Shopping Assistor", "desc": "Too tired to shop? We get you the best." },
+    { "badge": "FAST", "icon": "🏃", "title": "Errand Services", "desc": "Too tired to run errand? We got you covered premium FAM." },
+    { "badge": "NEW ✨", "icon": "♾️", "title": "And So Much More.......", "desc": "No more stress, no more scam. Only Cheers and Peace of Mind 😊 If you need it, we source it, secure it, deliver it premium!" }
+  ]
+}
