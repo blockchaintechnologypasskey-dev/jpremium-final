@@ -1,0 +1,121 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>J'Premium Enterprises | J'Premium Quick Connect | CAC 7438950</title>
+<link rel="manifest" href="manifest.json"><meta name="theme-color" content="#4B0082">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Inter',sans-serif}body{background:#fdfcfe;color:#1a0a2e;line-height:1.6}
+header{background:rgba(255,255,255,0.97);padding:14px 5%;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:1000;box-shadow:0 2px 15px rgba(0,0,0,0.06);backdrop-filter:blur(10px)}
+.logo{font-weight:900;color:#4B0082;font-size:15px}.logo span{color:#C9A86A}
+.hero{padding:80px 5% 60px;text-align:center;background:radial-gradient(1200px at 10% -10%,#7B2CF0 0%,#4B0082 50%,#0f0a1f 100%);color:white}
+.hero h1{font-family:'Playfair Display';font-size:36px;margin:15px 0;line-height:1.1}
+.hero p.lead{opacity:0.85;font-size:14px;max-width:720px;margin:12px auto}
+.btn{display:inline-block;background:linear-gradient(135deg,#C9A86A,#FFD87A);color:#1a0a2e;padding:13px 24px;border-radius:30px;font-weight:900;text-decoration:none;margin:6px;font-size:12px;box-shadow:0 8px 20px rgba(201,168,106,0.4)}
+.section{padding:55px 5%}.section h2{font-family:'Playfair Display';font-size:28px;text-align:center;margin-bottom:8px;color:#1a0a2e}
+.lead{text-align:center;opacity:0.7;font-size:13px;max-width:700px;margin:0 auto 24px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.card{background:white;border-radius:18px;padding:20px;box-shadow:0 8px 25px rgba(75,0,130,0.08);border:1px solid #f3eefe;transition:0.3s}
+.card:hover{transform:translateY(-4px);box-shadow:0 12px 30px rgba(75,0,130,0.15)}
+.card h3{font-size:15px;color:#4B0082;margin:6px 0}.card p{font-size:12.5px;opacity:0.8;line-height:1.5}
+.badge{display:inline-block;background:#f5eeff;color:#4B0082;padding:4px 10px;border-radius:20px;font-size:9px;font-weight:900;margin-bottom:8px;letter-spacing:0.5px}
+.about-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;margin-top:20px}
+.about-box{background:white;border-radius:16px;padding:22px;border-left:4px solid #C9A86A;box-shadow:0 6px 20px rgba(0,0,0,0.06)}
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));grid-auto-rows:180px;gap:12px;margin-top:18px}
+.item{border-radius:16px;overflow:hidden;box-shadow:0 8px 20px rgba(0,0,0,0.1);background:#eee;position:relative}
+.item img,.item video{width:100%;height:100%;object-fit:cover}
+.wide{grid-column:span 2}.tall{grid-row:span 2}
+.tv{background:#0f0a1f;color:white;padding:55px 5%;text-align:center}
+.tvgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px;margin:24px 0;text-align:left}
+.tvbox{background:white;color:#1a1a1a;border-radius:18px;padding:18px;border-left:5px solid #FFD87A}
+footer{background:#0a0614;color:white;padding:50px 5%;text-align:center}
+footer a{color:#FFD87A;text-decoration:none}
+/* FLOATING BUTTONS STYLED */
+.float-wrap{position:fixed;bottom:18px;right:14px;z-index:9999;display:flex;flex-direction:column;gap:10px}
+.float-btn{width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:24px;text-decoration:none;box-shadow:0 8px 24px rgba(0,0,0,0.28);transition:0.2s}
+.float-btn:hover{transform:scale(1.08)}
+</style>
+</head><body>
+<header><div class="logo">J'Premium <span>Quick Connect</span> • CAC <span id="cacHead">7438950</span></div><a id="waHead" href="https://wa.me/2349038284538" style="background:#25D366;color:white;padding:9px 18px;border-radius:22px;text-decoration:none;font-weight:900;font-size:12px">WhatsApp</a></header>
+
+<div id="installPrompt" style="display:none;position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:#1a0a2e;color:white;padding:18px 20px;border-radius:20px;z-index:9998;max-width:360px;width:92%;text-align:center;border:1px solid #C9A86A;box-shadow:0 15px 40px rgba(0,0,0,0.4)"><p style="font-size:14px;font-weight:900">📲 Install J'Premium App</p><p style="font-size:11px;opacity:0.7;margin:6px 0">Access faster offline + 365 days auto</p><div style="display:flex;gap:8px;justify-content:center;margin-top:12px"><button id="installBtn" style="background:linear-gradient(135deg,#C9A86A,#FFD87A);color:#1a0a2e;border:none;padding:10px 20px;border-radius:24px;font-weight:900;font-size:12px">Install Now 📲</button><button onclick="document.getElementById('installPrompt').style.display='none'" style="background:rgba(255,255,255,0.12);color:white;border:none;padding:10px 14px;border-radius:24px;font-size:11px">Later</button></div></div>
+
+<div class="hero"><p style="letter-spacing:3px;font-size:9px;opacity:0.7;font-weight:800" id="mottoHero">ONE CONNECTION ENDLESS POSSIBILITIES • 365 DAYS AUTO</p><h1>WE TRADE | WE BUILD | WE DESIGN | WE MANAGE</h1><p class="lead" id="businessDesc">Faster Safer Cheaper Better Quality + No more stress, no more scam. Only Cheers and Peace of Mind</p><div style="margin-top:22px"><a href="#services" class="btn">Explore 16 Services ↓</a><a href="#gallery" class="btn" style="background:white">Portfolio ↓</a><a href="#tvmedia" class="btn" style="background:rgba(255,255,255,0.15);color:white">📺 Day <span id="heroDay">--</span>/365 LIVE</a></div></div>
+
+<div class="section" style="background:#faf7ff"><h2>Who We Are</h2><p class="lead" id="aboutDesc">Loading...</p><div class="about-grid"><div class="about-box"><small style="color:#C9A86A;font-weight:900">🎯 OUR MISSION</small><p id="missionText" style="margin-top:8px;font-size:13px"></p></div><div class="about-box" style="border-left-color:#7B2CF0"><small style="color:#7B2CF0;font-weight:900">👁️ OUR VISION</small><p id="visionText" style="margin-top:8px;font-size:13px"></p></div><div class="about-box" style="border-left-color:#4B0082"><small style="color:#4B0082;font-weight:900">😊 OUR PROMISE</small><p id="sloganText" style="margin-top:8px;font-size:13px;font-weight:700"></p></div></div></div>
+
+<div class="section" id="services"><h2>Our 16 Premium Services</h2><p class="lead">One Connection Endless Possibilities — Edit data.json to add more anytime!</p><div class="grid" id="servicesGrid"></div></div>
+
+<div class="section" id="gallery" style="background:#faf7ff"><h2>Luxury Portfolio — Photos + Videos</h2><p class="lead">Auto-loads ALL formats: JPG PNG JPEG WEBP MP4 MOV — FIXED!</p><p id="photoCount" style="text-align:center;font-weight:900;color:#4B0082;font-size:13px;margin:12px 0">🔍 Scanning Images folder...</p><div class="gallery" id="autoGallery"></div></div>
+
+<section id="tvmedia" class="tv"><h2 style="font-family:'Playfair Display';font-size:30px;color:#C9A86A">TV Media Live 📺 365 DAYS AUTO</h2><p style="opacity:0.8;font-size:13px">Day <span id="dayNum">--</span>/365 — Joke + Therapy + Value Daily</p><div class="tvgrid"><div class="tvbox"><small style="color:#C9A86A;font-weight:900">😂 JOKE TODAY</small><h3 id="jokeText" style="margin:12px 0;font-size:14px;line-height:1.4">Loading daily joke...</h3></div><div class="tvbox" style="border-left-color:#7B2CF0"><small style="color:#7B2CF0;font-weight:900">🧘 THERAPY TODAY</small><h3 id="therapyText" style="margin:12px 0;font-size:14px;line-height:1.4">Loading therapy...</h3></div><div class="tvbox" style="border-left-color:#25D366"><small style="color:#25D366;font-weight:900">💎 VALUE TODAY</small><h3 id="valueText" style="margin:12px 0;font-size:14px;line-height:1.4">Loading value...</h3></div></div><a id="waTv" href="https://wa.me/2349038284538" style="background:linear-gradient(135deg,#C9A86A,#FFD87A);color:#1a0a2e;padding:12px 24px;border-radius:30px;text-decoration:none;font-weight:900;font-size:12px;display:inline-block;margin-top:10px">Chat to Get Today's Deal 🔔</a></section>
+
+<div class="section" style="text-align:center;background:white"><h2>Contact J'Premium Enterprises</h2><div id="contactInfo" style="font-size:13px;line-height:2;margin-top:16px;background:#faf7ff;padding:20px;border-radius:16px;max-width:500px;margin-left:auto;margin-right:auto"></div><div style="margin-top:24px"><a id="waContact" href="https://wa.me/2349038284538" class="btn" style="background:#25D366;color:white;font-size:14px;padding:14px 30px">💬 WhatsApp Us Now</a></div></div>
+
+<footer><h3 style="font-family:'Playfair Display'">J'Premium Quick Connect</h3><p style="font-size:11px;opacity:0.8;margin-top:10px" id="footerInfo">CAC 7438950 • One Connection Endless Possibilities</p><p style="font-size:10px;opacity:0.5;margin-top:12px">© 2026 J'Premium Enterprises. All rights reserved. Faster Safer Cheaper Better Quality.</p></footer>
+
+<!-- FLOATING STYLED FRONT BUTTONS -->
+<div class="float-wrap">
+<a id="floatWa" href="https://wa.me/2349038284538" class="float-btn" style="background:#25D366;color:white">💬</a>
+<a href="tel:+2349038284538" class="float-btn" style="background:#4B0082;color:white">📞</a>
+<a href="#" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;" class="float-btn" style="background:linear-gradient(135deg,#C9A86A,#FFD87A);color:#1a0a2e;font-weight:900;font-size:18px">↑</a>
+</div>
+
+<script>
+async function loadData(){
+ try{
+  const res=await fetch('data.json?v='+Date.now());const data=await res.json();
+  document.getElementById('cacHead').innerText=data.business.cac;
+  document.getElementById('mottoHero').innerText=data.business.motto+' • CAC '+data.business.cac+' • '+data.business.quality;
+  document.getElementById('businessDesc').innerText=data.business.quality+' + '+data.business.slogan;
+  document.getElementById('aboutDesc').innerText=data.about.desc;
+  document.getElementById('missionText').innerText=data.about.mission;
+  document.getElementById('visionText').innerText=data.about.vision;
+  document.getElementById('sloganText').innerText=data.business.slogan;
+  document.getElementById('waHead').href=data.business.whatsapp;
+  document.getElementById('waTv').href=data.business.whatsapp;
+  document.getElementById('waContact').href=data.business.whatsapp;
+  document.getElementById('floatWa').href=data.business.whatsapp;
+  document.getElementById('contactInfo').innerHTML=`<b>CAC:</b> ${data.business.cac}<br><b>Company:</b> ${data.business.name} (${data.business.subsidiary})<br><b>Address:</b> ${data.business.address}<br><b>WhatsApp:</b> <a href="${data.business.whatsapp}" style="color:#25D366;font-weight:800">Chat on WhatsApp</a><br><b>Phone:</b> ${data.business.phone}<br><b>Instagram:</b> @${data.business.instagram}<br><b>Motto:</b> ${data.business.motto}<br><b>Quality:</b> ${data.business.quality}`;
+  document.getElementById('footerInfo').innerText=`${data.business.name} • ${data.business.subsidiary} • CAC ${data.business.cac} • ${data.business.motto} • ${data.business.slogan}`;
+  const grid=document.getElementById('servicesGrid');grid.innerHTML='';
+  data.services.forEach(s=>{
+    const card=document.createElement('div');card.className='card';
+    if(s.badge.includes('NEW')){card.style.border='2px dashed #C9A86A';card.style.background='#fffaf0';}
+    card.innerHTML=`<span class="badge">${s.badge}</span><h3>${s.icon} ${s.title}</h3><p>${s.desc}</p>`;
+    grid.appendChild(card);
+  });
+  const gallery=document.getElementById('autoGallery');const countEl=document.getElementById('photoCount');
+  let loaded=0;const max=data.gallery.maxFiles||100;
+  const allExts=['jpg','jpeg','png','webp','JPG','JPEG','PNG','WEBP','mp4','MP4','mov','MOV','webm'];
+  const videoExts=['mp4','MP4','mov','MOV','webm'];
+  for(let i=1;i<=max;i++){
+    const num=String(i).padStart(2,'0');const wrap=document.createElement('div');wrap.className='item';
+    if(i%7===0||i%5===0)wrap.classList.add('wide');if(i%11===0)wrap.classList.add('tall');
+    let extIdx=0;
+    function tryNext(){
+      if(extIdx>=allExts.length){wrap.style.display='none';return;}
+      const ext=allExts[extIdx++];const src=`${data.gallery.folder}/${data.gallery.prefix}${num}.${ext}`;
+      if(videoExts.includes(ext)){
+        const v=document.createElement('video');v.src=src;v.muted=true;v.loop=true;v.playsInline=true;v.controls=true;
+        v.onloadeddata=function(){loaded++;countEl.innerText=`✅ ${loaded} Files Loaded — ALL FORMATS FIXED`;wrap.innerHTML='';wrap.appendChild(v);};
+        v.onerror=tryNext;
+      }else{
+        const img=new Image();img.src=src;img.loading='lazy';
+        img.onload=function(){loaded++;countEl.innerText=`✅ ${loaded} Files Loaded — ALL FORMATS FIXED`;wrap.innerHTML='';img.style.width='100%';img.style.height='100%';img.style.objectFit='cover';wrap.appendChild(img);};
+        img.onerror=tryNext;
+      }
+    }
+    tryNext();gallery.appendChild(wrap);
+  }
+ }catch(e){document.getElementById('servicesGrid').innerHTML='<p style="text-align:center;color:red">Error: data.json not found!</p>';}
+}
+const jB=["Why did crypto trader bring ladder? To reach moon! With J'Premium, only cheers! 😂","I told my wallet I need therapy. It said 'You need J'Premium!'","Trading stressful? Not with J'Premium — only cheers!","Why is J'Premium like WiFi? One Connection Endless Possibilities!","I tried to scam myself, J'Premium blocked me! 😂","PayPal Zelle Venmo BTC ETH — J'Premium trades faster!","Building project? J'Premium builds faster than gossip!","TV Media? Business Fun Realities!","Refer & Earn!","Hotel booking stress? Not with J'Premium!","Solar? J'Premium powers brighter!","Vehicle deals? Your journey our priority!","One Connection — CAC 7438950!","Faster Safer Cheaper Better Quality!","No more stress, no more scam. Only Cheers!"];
+const tB=["Breathe in peace, breathe out stress. Only cheers 😊","You are not your anxiety.","Take 5 mins: No phone, just breathe.","One Connection — including peace.","Faster Safer Cheaper — also mental health.","Your peace is priceless.","Today choose cheers over fears.","Small progress is still progress.","Rest is not laziness.","Therapy is not weakness.","Let go of what you can't control.","Calm is a superpower."];
+const vB=["Discipline > Motivation. CAC 7438950","Your network is your net worth.","Consistency beats intensity.","Trust is expensive, but J'Premium gives free.","One good connection can change business.","Faster. Safer. Cheaper. Better Quality.","No more stress, no more scam.","Trade smart not hard.","Authenticity is luxury.","Refer clients, earn rewards.","TV Media: Business, Fun, Realities.","One Connection — Abraka."];
+function gen365(b){let a=[];for(let i=0;i<365;i++)a.push(b[i%b.length]+` [Day ${i+1}/365]`);return a;}
+const j365=gen365(jB),t365=gen365(tB),v365=gen365(vB);
+function getDay(){const s=new Date(new Date().getFullYear(),0,0);return Math.floor((Date.now()-s)/86400000);}
+async function load365(){let i=getDay()%365;document.getElementById('dayNum').innerText=i+1;document.getElementById('heroDay').innerText=i+1;let j=j365[i],t=t365[i],v=v365[i];try{const r=await fetch('https://official-joke-api.appspot.com/jokes/random').then(r=>r.json());if(r&&r.setup)j=`${r.setup} — ${r.punchline} 😂 [Day ${i+1}/365]`;}catch{}document.getElementById('jokeText').innerText=j;document.getElementById('therapyText').innerText=t;document.getElementById('valueText').innerText=v;}
+let dP=null;window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();dP=e;setTimeout(()=>{document.getElementById('installPrompt').style.display='block';},6000);});document.getElementById('installBtn').addEventListener('click',async()=>{if(!dP){alert("Tap ⋮ > Add to Home screen 📲 to install");return;}dP.prompt();const c=await dP.userChoice;if(c.outcome==='accepted'){document.getElementById('installPrompt').style.display='none';}dP=null;});
+loadData();load365();if('serviceWorker' in navigator){navigator.serviceWorker.register('sw.js');}
+</script>
+</body></html>
